@@ -1,12 +1,368 @@
-*{
-margin: 0%;
-border: 1px;
+* {
+    margin: 0%;
+    border: 1px;
+    font-family: "Slackside One", cursive;
+    font-size: 20px;
+    font-style: normal;
 }
-header{
-    height: 16vh;
+
+#entregas
+{
+    font-size: 190%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 18vh;
+    width: 100vw;
     background-color: #FFDCC2;
     display: grid;
+    position: sticky;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+#gridheader {
+    display: flex;
+
+    height: 18vh;
+    width: 100vw;
+}
+
+#sushilogohd {
+    background-color: #FEB57E;
+    width: 12vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#entregas {
+    background-color: #FEB57E;
+    width: 28vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 4px;
+}
+
+#nadahd {
+    background-color: #FFDCC2;
+    width: 5vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#nadahd1 {
+    background-color: #FEB57E;
+    width: 3vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#sushis {
+    background-color: #FFDCC2;
+    width: 20vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    transition-duration: 0.4s;
+}
+
+
+
+
+#cardapio {
+    background-color: #FFDCC2;
+    width: 20vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#menu {
+    background-color: #FFDCC2;
+    width: 14vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+}
+
+#logo {
+    width: 26vw;
+    height: 21vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#butaosushi {
+    width: 10vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 4px;
+}
+#butaosushi:hover {
+    background-color: white;
+    color: #FEB57E;
     
 }
 
+#peixe_de_fundo {
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+#butaocardapio {
+    width: 10vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+#butaocardapio:hover {
+    background-color: white;
+    color: #FEB57E;
+    
+}
+
+#hashi {
+    position: relative;
+    z-index: 2;
+    left: 4vw;
+    bottom: 1.5vw;
+}
+
+svg {
+    height: 50px;
+    position: relative;
+    z-index: 98;
+}
+
+#menuu {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+#check {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#slide {
+    width: 40vh;
+    height: 100vh;
+    background-color: #FFE8D7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -260%;
+    transition: 1s;
+    overflow: hidden;
+    z-index: 97;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#check:checked~#slide {
+    right: 0.1%;
+}
+
+#div1slide {
+    background-color: #FFDCC2;
+    height: 18vh;
+    width: 100%;
+}
+
+#logoslide {
+    padding: 4%;
+}
+
+
+
+#butaoslide {
+    width: 10vw;
+    height: 4vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 12%;
+    border-radius: 4px;
+}
+
+#butaoslide:hover {
+    background-color: white;
+    color: #FEB57E;
+    
+}
+
+
+
+#posheader
+{
+    height: 66vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+#imgg
+{
+    position: absolute;
+    height: 66vh;
+    width: 63vw;
+}
+.imggg
+{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: #FFDCC2;
+}
+
+#fantasma
+{
+    height: 66vh;
+    width: 66.1vw;
+}
+
+#peca
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#dentropeca
+{
+    height: 52vh;
+    width: 22vw;
+    background-color: #FEB57E;
+    z-index: 60;
+    border-radius: 5px;
+    color:white;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   
+}
+
+#dentroopeca
+{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contatos
+{
+    height: 16vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
 
