@@ -169,7 +169,7 @@ header {
     position: relative;
     z-index: 2;
     left: 4vw;
-    bottom: 1.5vw;
+    bottom: 1.4vw;
 }
 
 svg {
@@ -250,8 +250,7 @@ svg {
 
 
 
-#posheader
-{
+#posheader {
     height: 66vh;
     width: 100vw;
     background-color: #FFDCC2;
@@ -259,95 +258,60 @@ svg {
     flex-direction: row;
     align-items: center;
     text-align: center;
-
+    position: relative;
 }
 
-#imgg
-{
+#imgg {
     position: absolute;
     height: 66vh;
     width: 63vw;
 }
-.imggg
-{
+
+.imggg {
     height: 100%;
     width: 100%;
     z-index: 10;
     background-color: #FFDCC2;
 }
 
-#fantasma
-{
+#fantasma {
     height: 66vh;
-    width: 66.1vw;
+    width: 80vw;
 }
 
-#peca
-{
+#peca {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    z-index: 20; 
 }
 
-#dentropeca
-{
+#dentropeca {
     height: 52vh;
     width: 22vw;
     background-color: #FEB57E;
-    z-index: 60;
     border-radius: 5px;
-    color:white;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+    color: white;
     display: flex;
-   
+    align-items: center;
+    justify-content: center; 
 }
 
-#dentroopeca
-{
-    align-items: center;
-    text-align: center;
+#dentroopeca {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#dentroopeca h1 {
+    margin: 0 auto;
+    font-size: 1.5em;
+}
 
 
 
@@ -360,9 +324,43 @@ svg {
     width: 100vw;
     background-color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#social
+{
+    height: 16vh;
+    width: 33.33333333333333vw;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     text-align: center;
-
 }
+
+#butaosoci {
+    width: 13vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    z-index: 30;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+#butaosoci:hover {
+    background-color: white;
+    color: #FEB57E;
+    border-color: #FEB57E;
+    border-style:dashed;
+    
+}
+
 
