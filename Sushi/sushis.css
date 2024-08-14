@@ -1,0 +1,439 @@
+* {
+    margin: 0%;
+    border: 1px;
+    font-family: "Slackside One", cursive;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#entregas {
+    font-size: 190%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 18vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+    display: grid;
+    position: sticky;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+#gridheader {
+    display: flex;
+
+    height: 18vh;
+    width: 100vw;
+}
+
+#sushilogohd {
+    background-color: #FEB57E;
+    width: 12vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#entregas {
+    background-color: #FEB57E;
+    width: 28vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 4px;
+}
+
+#nadahd {
+    background-color: #FFDCC2;
+    width: 5vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#nadahd1 {
+    background-color: #FEB57E;
+    width: 3vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#sushis {
+    background-color: #FFDCC2;
+    width: 20vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    transition-duration: 0.4s;
+}
+
+
+
+
+#cardapio {
+    background-color: #FFDCC2;
+    width: 20vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+}
+
+#menu {
+    background-color: #FFDCC2;
+    width: 14vw;
+    height: 18vh;
+    display: grid;
+    place-items: center;
+}
+
+#logo {
+    width: 26vw;
+    height: 21vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#butaosushi {
+    width: 10vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 4px;
+}
+
+#butaosushi:hover {
+    background-color: white;
+    color: #FEB57E;
+
+}
+
+#peixe_de_fundo {
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+#butaocardapio {
+    width: 10vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+#butaocardapio:hover {
+    background-color: white;
+    color: #FEB57E;
+
+}
+
+#hashi {
+    position: relative;
+    z-index: 2;
+    left: 4vw;
+    bottom: 1.4vw;
+}
+
+svg {
+    height: 50px;
+    position: relative;
+    z-index: 98;
+}
+
+#menuu {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+#check {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#slide {
+    width: 40vh;
+    height: 321vh;
+    background-color: #FFE8D7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -260%;
+    transition: 1s;
+    overflow: hidden;
+    z-index: 97;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#check:checked~#slide {
+    right: 0.1%;
+}
+
+#div1slide {
+    background-color: #FFDCC2;
+    height: 18vh;
+    width: 100%;
+}
+
+#logoslide {
+    padding: 4%;
+}
+
+
+
+#butaoslide {
+    width: 10vw;
+    height: 4vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 12%;
+    border-radius: 4px;
+}
+
+#butaoslide:hover {
+    background-color: white;
+    color: #FEB57E;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#posheader {
+    height: 287vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+#posheader1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+}
+
+#titulo1 {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+
+#barcas {
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#barcastexto {
+
+    height: 74vh;
+    width: 32vw;
+    background-color: #FEB57E;
+    border-radius: 4px;
+    color: white;
+    padding-top: 6vh;
+}
+
+#espaco {
+    padding: 15px;
+}
+
+#peqespaco {
+    padding-top: 10px;
+}
+
+#txtgrande {
+    padding-top: 10px;
+    font-size: 160%;
+}
+
+#txtmedio {
+    font-size: 130%;
+}
+
+
+
+
+#barcasimg {
+    height: 80vh;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#posheader2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+}
+
+#posheader3 {
+    height: 87vh;
+    width: 100vw;
+    background-color: #FFDCC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#banner {
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#imgg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contatos {
+    height: 16vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#social {
+    height: 16vh;
+    width: 33.33333333333333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#butaosoci {
+    width: 13vw;
+    height: 4.3vh;
+    background-color: #FEB57E;
+    color: white;
+    cursor: pointer;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    z-index: 30;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+#butaosoci:hover {
+    background-color: white;
+    color: #FEB57E;
+    border-color: #FEB57E;
+    border-style: dashed;
+
+}
